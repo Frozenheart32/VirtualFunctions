@@ -14,7 +14,7 @@ std::ostream& Car::print(std::ostream& out) const
 {
     out << "Car Engine:" << get_car_power()
     <<" Wheels: " << leftForwardWheel.get_wheel_diameter() << " " << rightForwardWheel.get_wheel_diameter() << " " << leftBackwardWheel.get_wheel_diameter() << " " << rightBackwardWheel.get_wheel_diameter()
-    << " Ride height = " << rideHeight
+    << " Ride height: " << rideHeight
     << std::endl;
     return out;
 }

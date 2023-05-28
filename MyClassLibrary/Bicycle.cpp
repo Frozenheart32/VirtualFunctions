@@ -10,7 +10,7 @@ std::ostream& Bicycle::print(std::ostream& out) const
 {
     out << "Bicycle "
     <<"Wheels: " << forwardWheel.get_wheel_diameter() << " " << backwardWheel.get_wheel_diameter()
-    << " Ride height = " << rideHeight
+    << " Ride height: " << rideHeight
     << std::endl;
     return out;
 }
